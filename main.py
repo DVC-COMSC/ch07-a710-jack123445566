@@ -7,9 +7,8 @@ names = ['Bill', 'Mary']
 
 fig, ax = plt.subplots()
 
-# ******************************
-# Make your code
-# ******************************
 
+ax.bar(labels,data1)
+ax.bar(labels,data2,bottom = data1)
 
 fig.savefig('A10.png')
